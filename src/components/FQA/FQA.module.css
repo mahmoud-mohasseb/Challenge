@@ -1,0 +1,128 @@
+.container{
+background: url("../../assets/backgroundFqa.png") no-repeat center;
+background-size:800px;
+position: absolute;
+right:0;
+width: 1250px;
+height: 1500px;
+top: 2300px;
+}
+.FQAcomponent {
+ display:flex;
+ justify-content:space-between;
+}
+.FQAdefination {
+    margin:80px;
+    font-style: normal;
+     font-weight: normal;
+    font-size: 48px;
+    line-height: 140%;
+}
+.FQAdefination >h1 {
+position: absolute;
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 40px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+color: #EE4D47;
+}
+.FQAdefination >p {
+    font-family: DM Serif Display;
+    font-size:50px;
+    line-height:200%;
+    color: #402B2B;
+}
+.deliveryimg {
+    margin:100px;
+}
+
+.QAcontainer{
+    display:flex;
+    position:relative;
+}
+.Question{
+    background-color:#FFFFFF;
+    margin:30px;
+    display:flex;
+    justify-content:space-around;
+    border-radius:20px;
+    font-family: Rubik;
+    width: 100%;
+    position:relative;
+}
+.Answer{
+    background-color:#FFF7F5;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+    justify-content:center;
+    border-radius: 10px;
+    width: 100%;
+    height:fit-content;
+    position:absolute;
+    margin:140px ;
+    position: absolute;
+
+}
+.Answer >p{
+    font-size:20px;
+    text-align:center;
+}
+.Accordions{
+   margin:40px;
+   display:grid; 
+   grid-template-columns: repeat(2, 1fr);
+   grid-auto-rows: 200px;
+}
+.Accordions >a {
+    justify-content:space-between;
+    width: 550px;
+    height: 90px;
+    display:flex;
+    font-family:Rubik;
+    background-color: #ED4D47;
+    opacity: 0.4;
+    border-radius: 10px;
+}
+@media (max-width: 700px) {
+    .container{
+        background: url("../../assets/backgroundFqa.png") no-repeat center;
+        background-size:500px;
+        position: absolute;
+        justify-content:center;
+        width: 540px;
+        height: 1000px;
+        top: 2700px;
+        right:100px;
+        }
+        .QAcontainer{
+            display:flex;
+            flex-direction:column;
+            position:relative;
+        }
+    .FQAcomponent {
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+       }
+       .FQAdefination >h1 {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 40px;
+        display: flex;
+        flex-direction:column;
+        letter-spacing: 0.1em;
+        color: #EE4D47;
+        }
+        .Accordions{
+            display:grid; 
+            grid-template-columns: repeat(1, 1fr);
+            grid-auto-rows: 200px;
+            justify-content:space-around;
+         }
+      
+}

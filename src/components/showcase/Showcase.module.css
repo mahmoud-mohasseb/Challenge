@@ -1,0 +1,84 @@
+.ShowcaseContain{
+    background: url("../../assets/showcase.png") no-repeat center;
+    background-size: 1850px;
+    position: absolute;
+    width: 2000px;
+    height: 1241.39px;
+    left: -210px;
+    top: -70.12px;
+    z-index:-1;
+}
+.ShowcaseContain > h1{
+    position: absolute;
+    width: 741px;
+    height: 300px;
+    left: calc(50% - 741px/2 - 189.5px);
+    top: 190px;
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.ShowcaseContain > img{
+position: absolute;
+right: 65.5%;
+top: 70.71%; 
+bottom: 77.94%;
+}
+.ShowcaseContain >button{
+position: absolute;
+font-family:Rubik;
+font-size:20px;
+padding:10px;
+width: 220px;
+height: 60px;
+left: 420px;
+top: 550px;
+}
+
+@media (max-width: 700px) {
+    .ShowcaseContain{
+        background: url("../../assets/showcase.png") no-repeat center;
+        background-size: 1550px;
+        position: absolute;
+        width: 800px;
+        height: 700.39px;
+        left: -110px;
+        top: -150.12px;
+        z-index:-1;
+    }
+    .ShowcaseContain > h1{
+        position: absolute;
+        width: 350px;
+        height: 300px;
+        left: calc(50% - 350px/2 - 70.5px);
+        top: 190px;
+        font-family: DM Serif Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 100%;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+.ShowcaseContain > img{
+    position: absolute;
+    right: 50.5%;
+    top: 75.71%; 
+    }
+    .ShowcaseContain >button{
+        position: absolute;
+        font-family:Rubik;
+        font-size:20px;
+        padding:10px;
+        width: 220px;
+        left: 140px;
+        top: 450px;
+        }
+        
+}

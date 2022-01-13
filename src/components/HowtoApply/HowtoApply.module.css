@@ -1,0 +1,50 @@
+
+.HowtoApplycomponent {
+    display:flex;
+    position: absolute;
+    width: 1232.61px;
+    height: 679.88px;
+    left: 127.39px;
+    top: 1800.81px;
+}
+
+.HowtoApplydefination {
+    font-family:Rubik;
+    margin:100px;
+}
+.HowtoApplydefination > p > h1{
+    margin:90px;
+    margin-left:70px;
+}
+.HowtoApplydefination > h1{
+    color:#EE4D47;
+}
+.HowtoApplydefination > p {
+       line-height:200%;
+       color:#402B2B;
+}
+.deliveryimg >image {
+ position: absolute;
+ width: 720.52px;
+height: 679.88px;
+left: 127.39px;
+top: 2004.81px;
+}
+@media (max-width: 700px) {
+    .HowtoApplycomponent {
+        display:flex;
+        flex-direction:column;
+        position: absolute;
+        width: 700px;
+        height: 550px;
+        left: 70.39px;
+        top: 1800.81px;
+    }
+    .deliveryimg >image {
+        position: absolute;
+        width: 520.52px;
+       height: 679.88px;
+       left: 100.39px;
+       top: 2004.81px;
+       }
+}

@@ -1,0 +1,111 @@
+.Contact{
+position: absolute;
+background-color: #0F264C;
+width: 100%;
+border-top-right-radius:90px;
+height: 661.51px;
+left: -5px;
+top: 4000px;
+display:flex;
+}
+.Truck{
+  background: url("../../assets/footerzigzag.png") no-repeat center;
+  background-size: 1850px;
+  width: 1306px;
+  position:relative;
+  display:flex;
+}
+.Truck >img{
+    margin-top:-270px;
+}
+.strap{
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+border-left: 5px solid red;
+margin:50px 30px;
+position: absolute;
+width: 330px;
+height: 140px;
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+color: #FFFFFF;
+left:300px;
+}
+.strap > p {
+    margin-left :20px;
+    line-height:30px;
+}
+
+input[type=text] ,[type=email] {
+    width: 100%;
+    padding: 12px;
+    font-family:Rubik;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  input:focus {
+    border: 1px solid #FFEEEC;
+  }
+  
+  .container {
+    border-radius: 20px;
+    margin:-200px 120px;
+    background-color:#ffffff;
+    padding: 50px;
+    width:fit-content;
+    height:fit-content;
+  }
+  .container >form >label {
+    font-family:Rubik;
+
+  }
+  .Contactnav{
+    justify-content:space-between;
+    display:flex;
+    right:50%;
+    top: 4407px;
+    position:absolute;
+    color:white; 
+  }
+  .Contactnav >ul >li {
+    font-family:Rubik;
+    list-style-type:none;
+    display:inline;
+    margin:30px;
+    font-size:20px;
+  }
+  @media (max-width: 700px) {
+    .Contact{
+      position: absolute;
+      width: 700px;
+      top: 5500px;
+      display:flex;
+      flex-direction:column;
+      }
+      .container {
+        margin:200px 0px;
+        padding: 50px;
+        width:fit-content;
+        height:fit-content;
+      }
+      .Truck{
+        width: 540px;
+        display:flex;
+      }
+      .Contactnav{
+        display:flex;
+        flex-direction:column;
+        right:100px;
+        top: 6050px;
+        color:white; 
+      }
+      .Contactnav >ul >li {
+        font-family:Rubik;
+        list-style-type:none;
+        font-size:15px;
+      }
+  }

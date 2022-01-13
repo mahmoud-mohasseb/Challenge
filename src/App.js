@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Navbar from "./components/Navbar/Navbar";
+import Showcase from "./components/showcase/Showcase";
+import Aboutus from "./components/Aboutus/Aboutus";
+import HowtoApply from "./components/HowtoApply/HowtoApply";
+import Footer from "./components/Footer/Footer";
+import FQA from './components/FQA/FQA';
+import FormSection from "./components/FormSection/FormSection";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<div>
+   <Navbar/>
+   <Showcase/>
+   <Aboutus />
+   <HowtoApply/>
+   <FQA/>
+   <FormSection />
+   <Footer />
+  </div>
   );
 }
 
